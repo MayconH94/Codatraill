@@ -1,0 +1,19 @@
+{
+  "short_name": "Codatraill",
+  "name": "Codatraill - Documentações & Frameworks",
+  "description": "Centralize documentações de programação com consulta rápida e suporte offline",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#070a08",
+  "theme_color": "#070a08",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/"
+}

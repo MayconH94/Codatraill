@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cyberGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff88" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background Badge -->
+  <rect x="4" y="4" width="92" height="92" rx="24" fill="#070a08" stroke="#1f3328" stroke-width="2.5" />
+  <!-- Inner Glow Hex / Trail Grid Accent -->
+  <path d="M28 34 L16 50 L28 66" fill="none" stroke="url(#cyberGreen)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+  <path d="M72 34 L84 50 L72 66" fill="none" stroke="url(#cyberGreen)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
+  <!-- Center Trail Slashes -->
+  <path d="M42 66 L58 34" stroke="#00ff88" stroke-width="5" stroke-linecap="round" />
+  <!-- Trail Dots -->
+  <circle cx="50" cy="50" r="3" fill="#ffffff" filter="url(#glow)" />
+</svg>
